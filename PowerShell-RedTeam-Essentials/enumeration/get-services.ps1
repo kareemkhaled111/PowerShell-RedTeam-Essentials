@@ -1,0 +1,1 @@
+Get-Service "S*" | Sort-Object Status -Descending | Format-Table DisplayName, Status
